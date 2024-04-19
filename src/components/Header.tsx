@@ -5,11 +5,13 @@ export const Header: React.FC = () => {
     return (
         <div className="navbar bg-base-100">
             <div className="flex-1">
-                <Link href="/">
+                <Link href="/" legacyBehavior>
                 <img src="/Headshot_Anton.png" alt="Logo" className="logo mr-16" width={80} height={80} style = {{marginLeft: '3rem', marginTop: '1rem', marginBottom: '1rem'}} />
                 </Link>       
-                <Link href="/">
-                <a style={{ fontSize: '1.5rem', fontWeight: 'bold', marginRight: '2rem' }}>Startseite</a>
+                <Link
+                    href="/"
+                    style={{ fontSize: '1.5rem', fontWeight: 'bold', marginRight: '2rem' }}>
+                Startseite
                 </Link>
                 <a style={{ fontSize: '1.5rem', fontWeight: 'bold', marginRight: '2rem' }}>Blog</a>
             </div>
