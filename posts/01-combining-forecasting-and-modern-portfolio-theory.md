@@ -1,0 +1,10 @@
+---
+title: "Unleashing the Power of Data-Driven Portfolio Optimization: Combining Forecasting and Modern Portfolio Theory"
+subtitle: "Applying Modern Portfolio Theory to Optimize Portfolio Selection using PyPortfolioOpt based on time series forecasting with Darts"
+date: "2024-04-20"
+---
+
+In today's fast-paced and ever-evolving financial landscape, investors are constantly seeking innovative approaches to optimize their portfolios and maximize returns. While traditional investment strategies have their merits, combining advanced data-driven techniques with proven theories can unlock a new level of portfolio optimization. In this blog article, we delve into the exciting world of mean variance optimization and explore how we can utilize both time series forecasting and modern portfolio theory to construct optimal portfolios.
+To achieve this, we'll leverage the capabilities of two powerful Python libraries: Darts and PyPortfolioOpt. Darts is a cutting-edge library that excels in time series forecasting using techniques like linear regression models, while PyPortfolioOpt offers comprehensive tools to apply modern portfolio theory and find the optimal allocations using for instance the maximum Sharpe ratio.
+By merging the forecasting abilities of Darts with the theoretical framework of modern portfolio theory, we can gain insights into the future performance of various assets and construct portfolios that strike an ideal balance between risk and return. This combination allows us to harness the power of data-driven decision-making while adhering to the principles of sound investment theory.
+In this article, I'll guide you through the process of constructing optimal portfolios. I'll start by creating equal weighted and historical average portfolios. Then, using Darts and sklearn, I'll build a linear regression model for time series forecasting. Finally, I'll apply mean variance optimization using PyPortfolioOpt to fine-tune our portfolios. Let's uncover the power of these techniques in maximizing returns and managing risk!
